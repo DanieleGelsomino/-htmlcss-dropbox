@@ -10,6 +10,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
+    width: 100%;
+    height: 100vh;
 }
 
 /* generics */
@@ -21,6 +23,32 @@ body {
     content: "";
     clear: both;
     display: table;
+}
+
+.float-left {
+    float: left;
+}
+
+
+.float-right {
+    float: right;
+}
+
+
+.w-90 {
+    width: 90%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-60 {
+    width: 60%;
 }
 
 .w-50 {
@@ -43,20 +71,21 @@ body {
     width: 10%;
 }
 
-/* utilities */
 
+
+/* utilities */
 
 /* content */
 
 /* header */
 
-header {
+/* header {
 position: fixed;
 right: 0;
 top: 0;
 left: 0;
 z-index: 20;
-}
+} */
 
 .logo {
 margin-top: 20px 20px;
@@ -121,12 +150,49 @@ padding-left: 20px;
 
 
 
+.first {
+    height: 700px;
+    background-color: rgb(179, 208, 231);
+    margin:  auto;
+
+}
+
+.banner {
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.title {
+    font-size: 3.7rem;
+    padding-top: 100px;
+}
+
+.description {
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+.prompt {
+    margin-top: 20px;
+    font-size: 0.8rem;
+}
+
+
+.big-arrow-down {
+    margin-top: 50px;
+    font-size: 3rem;
+    color: black;
+}
 
 
 
-
-
-
+.jumbo-tron {
+    position: absolute;
+    top: 320px;
+    left: 450px;
+    
+}
 
 
 
@@ -146,7 +212,7 @@ padding-left: 20px;
 /* debug */
 
 .debug.container {
-    background-color: aqua;
+    /* background-color: aqua; */
     height: 80px;
 
 }
