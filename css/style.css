@@ -34,6 +34,9 @@ body {
     float: right;
 }
 
+.text-center {
+    text-align: center;
+}
 
 .w-90 {
     width: 90%;
@@ -194,6 +197,57 @@ padding-left: 20px;
     
 }
 
+.second {
+    height: 900px;
+}
+
+.text {
+    padding-top: 200px;
+}
+
+.text h2 {
+    font-size: 2rem;
+    padding-bottom: 50px;
+}
+
+.labels {
+    padding-left: 220px;
+
+}
+
+
+label {
+    margin-right: 15px;
+}
+
+.plans {
+margin: 20px auto ;
+padding-left: 100px;
+
+}
+
+.first-plan,
+.third-plan  {
+     width: 30%;
+     height: 1000px;
+     border: 1px solid lightgray;
+}
+
+.second-plan {
+    width: 30%;
+    height: 1000px;
+    border: 1px solid lightgray;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.title-box {
+    font-size: 0.9rem;
+    border-bottom: 1px solid lightgray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:rgb(12, 11, 11);
+}
 
 
 
