@@ -430,6 +430,7 @@ margin-top: 100pxpx;
 .logo-left {
 width: 460px;
 
+
 }
 
 
@@ -445,6 +446,17 @@ width: 460px;
     top: 0;
     left: 0;
 }
+
+
+.small-logo {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(1);
+}
+
 
 .small-box.bordeaux {
     background-color: rgb(97, 9, 43);
@@ -472,21 +484,45 @@ width: 460px;
 
 
 
+.design-box {
+    width: 520px;
+    background-color:  rgb(245, 245, 245);
+    position: absolute;
+    top: 0;
+    left: 460px;
+    height: 460px;
+}
+
+
+.central-logo {
+    width: 100px;
+}
+
+.designit-text {
+    margin: 50px 50px;
+}
+
+
 .logo-right {
     width: 460px;
 
 }
 
+.small-line {
+    width: 40px;
+    border-top: 1px solid lightgray;
+    margin-top: 30px;
+}
 
 
-.small-box.red {
+.small-box.skyblue {
     background-color:rgb(179, 208, 231);
     position: absolute;
     top: 0;
     right: 0;
 }
 
-.small-box.skyblue {
+.small-box.red{
     background-color:rgb(213, 0, 31);
     position: absolute;
     top: 0;
@@ -511,8 +547,11 @@ width: 460px;
 }
 
 
-
-
+.small-text {
+    font-size: 0.8rem;
+    margin-top: 50px;
+    font-weight: 400;
+}
 
 
 
