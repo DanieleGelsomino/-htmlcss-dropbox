@@ -149,7 +149,7 @@ padding-left: 20px;
 .btn {
     background-color: rgb(1, 96, 255);
     color: white;
-    padding: 8px 20px;
+    padding: 8px 18px;
     font-size: 0.8rem;
     text-decoration: none;
 
@@ -213,6 +213,12 @@ padding-left: 20px;
     margin-left: 20px;
 }
 
+.container-plan {
+    width: 80%;
+    margin: 20px auto;
+}
+
+
 .text {
     padding-top: 200px;
 }
@@ -224,7 +230,7 @@ padding-left: 20px;
 }
 
 .labels {
-    padding-left: 230px;
+    padding-bottom: 25px;
 
 }
 
@@ -235,20 +241,20 @@ label {
 
 .plans {
 margin: 40px auto ;
-padding-left: 100px;
+
 
 }
 
 .first-plan,
 .third-plan  {
      width: 30%;
-     height: 1000px;
+     height: 950px;
      border: 1px solid lightgray;
 }
 
 .second-plan {
     width: 30%;
-    height: 1000px;
+    height: 950px;
     border: 1px solid lightgray;
     margin-right: 40px;
     margin-left: 40px;
@@ -334,15 +340,13 @@ h4 {
 
 
 .fourth-plan {
-    width: 911px;
-    margin-top: 40px;
+    width: 900px;
+    margin-top: 50px;
     border: 1px solid lightgray;
     position: relative;
 
     
 }
-
-
 
 
 .little-info {
