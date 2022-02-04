@@ -155,6 +155,36 @@ padding-left: 20px;
 
 }
 
+.btn:hover {
+    background-color:rgb(59, 132, 255);
+}
+
+.btn.btn-basic {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+
+.btn.btn-basic:hover {
+    background-color:rgb(245, 245, 245) ;
+}
+
+
+.btn-light {
+    font-size: 1rem;
+    padding: 7px 40px;
+    background-color: white;
+    color:black;
+    position: absolute;
+    top: 140px;
+    right: 250px;
+}
+
+.btn-light:hover {
+    background-color: rgb(245, 245, 245);
+}
+
 /* header */
 
 
@@ -378,6 +408,7 @@ h4 {
     margin-top: 20px;
     font-size: 1rem;
     line-height: 28px;
+    margin-bottom: 20px;
 
 
 }
@@ -408,10 +439,6 @@ padding-top: 100px;
 }
 
 
-.second-title {
-margin-top: 100pxpx;
-}
-
 
 .clients a {
     color:rgb(1, 96, 255)  ;
@@ -439,6 +466,11 @@ width: 460px;
     height: 230px;
 }
 
+.small-box:hover {
+    border: 10px solid rgba(255,255,255,0.5);
+    width: 225px;
+    height: 225px;
+}
 
 .small-box.lightgreen {
     background-color: rgb(162, 211, 155);
@@ -550,10 +582,25 @@ width: 460px;
 .small-text {
     font-size: 0.8rem;
     margin-top: 50px;
-    font-weight: 400;
+    font-weight: 250px;
 }
 
 
+
+.sixth {
+    height: 350px;
+    background-color: rgb(179, 208, 231);
+    position: relative;
+}
+
+.content-sect {
+    margin: 0 auto;
+}
+
+
+.violet-title {
+    color: rgb(97, 9, 43);
+}
 
 /* main */
 
@@ -565,12 +612,3 @@ width: 460px;
 
 
 
-/* debug */
-
-.debug.container {
-    /* background-color: aqua; */
-    height: 80px;
-
-}
-
-/* debug */
