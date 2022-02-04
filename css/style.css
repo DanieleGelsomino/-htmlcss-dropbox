@@ -381,11 +381,35 @@ h4 {
 
 }
 
-.img-box {
-    width: 30%;
-    display: inline-block;
+.col {
+    width:calc(100% / 3 - 40px);
+    margin-right: 40px;
 }
 
+.img-box {
+    width: 100%;
+
+}
+
+.border-col {
+margin-top: 20px;
+}
+
+
+.descript-text {
+    padding-top: 20px;
+    font-size: 0.9rem;
+}
+
+.second-boxes {
+padding-top: 100px;
+
+}
+
+
+.second-title {
+margin-top: 100pxpx;
+}
 
 
 /* main */
