@@ -79,7 +79,6 @@ body {
 }
 
 
-
 /* utilities */
 
 /* content */
@@ -95,6 +94,7 @@ left: 0;
 z-index: 20;
 }
 
+
 .logo {
 margin-top: 20px 20px;
 line-height: 80px;
@@ -104,15 +104,18 @@ padding-left: 20px;
 
 }
 
+
 .menu {
     display: inline-block;
     margin-left: 50px;
     font-size: 0.9rem;
 }
 
+
 .nav-bar {
     display: inline-block;
 }
+
 
 .second-nav {
     padding-left: 250px;
@@ -141,10 +144,17 @@ padding-left: 20px;
     margin-left:25px ;
 }
 
+
 .li-nav:hover {
     cursor: pointer;
     border-bottom: 2px solid black;
 }
+
+
+/* header */
+
+
+/* buttons */
 
 .btn {
     background-color: rgb(1, 96, 255);
@@ -155,9 +165,11 @@ padding-left: 20px;
 
 }
 
+
 .btn:hover {
     background-color:rgb(59, 132, 255);
 }
+
 
 .btn.btn-basic {
     background-color: white;
@@ -181,17 +193,18 @@ padding-left: 20px;
     right: 250px;
 }
 
+
 .btn-light:hover {
     background-color: rgb(245, 245, 245);
 }
 
-/* header */
-
+/* buttons */
 
 
 /* main */
 
 
+/* first-section */
 
 .first {
     height: 700px;
@@ -199,6 +212,7 @@ padding-left: 20px;
     margin: 80px auto;
 
 }
+
 
 .banner {
     margin: 0 auto;
@@ -211,10 +225,12 @@ padding-left: 20px;
     padding-top: 100px;
 }
 
+
 .description {
     padding-top: 50px;
     margin-bottom: 30px;
 }
+
 
 .prompt {
     margin-top: 20px;
@@ -229,7 +245,6 @@ padding-left: 20px;
 }
 
 
-
 .jumbo-tron {
     position: absolute;
     top: 320px;
@@ -237,10 +252,16 @@ padding-left: 20px;
     
 }
 
+/* first-section */
+
+
+/* second-section */
+
 .second {
     margin-top: 20px ;
     margin-left: 20px;
 }
+
 
 .container-sect {
     width: 80%;
@@ -253,11 +274,13 @@ padding-left: 20px;
     padding-top: 100px;
 }
 
+
 .text h2 {
     font-size: 2.3rem;
     padding-bottom: 30px;
     
 }
+
 
 .labels {
     padding-bottom: 25px;
@@ -275,11 +298,13 @@ margin: 40px auto ;
 
 }
 
+
 .content  {
      width: 30%;
      height: 950px;
      border: 1px solid lightgray;
 }
+
 
 .content-plan {
     width: 30%;
@@ -289,6 +314,7 @@ margin: 40px auto ;
     margin-left: 40px;
 }
 
+
 .title-box {
     font-size: 0.85rem;
     border-bottom: 1px solid lightgray;
@@ -297,9 +323,11 @@ margin: 40px auto ;
     color:rgb(12, 11, 11);
 }
 
+
 .des-plan {
 margin: 20px 40px ;
 }
+
 
 .price, .info {
     font-size: 0.8rem;
@@ -307,6 +335,7 @@ margin: 20px 40px ;
     padding-top: 10px;
 
 }
+
 
 .price::after {
     content: "\20AC";
@@ -326,6 +355,7 @@ margin: 20px 40px ;
     padding-bottom: 50px;
 }
 
+
 .list-plan li {
     list-style-type: none;
 padding-top: 20px;
@@ -333,9 +363,11 @@ font-weight: 500;
 
 }
 
+
 .free-trial {
 padding-top: 50px;
 }
+
 
 .buy {
     padding-top: 40px;
@@ -344,6 +376,7 @@ padding-top: 50px;
     padding-bottom: 40px;
     display: inline-block;
 }
+
 
 .blue {
     color: rgb(1, 96, 255);
@@ -359,9 +392,11 @@ h4 {
     font-size: 1rem;
 }
 
+
 .check {
     color:rgb(1, 96, 255) ;
 }
+
 
 .check-list {
     font-size: 0.8rem ;
@@ -385,43 +420,50 @@ h4 {
 }
 
 
-
-
 .btn-contact {
     position: absolute;
     top: 50px;
     right:20px;
 }
+ 
+/* second-section */
 
-
+/* third-section */
 
 .img-section {
     width: 500px;
 }
+
 
 .des-text {
     margin-left: 40px;
     margin-top: 40px;
 }
 
+
 .second-descript {
     margin-top: 20px;
     font-size: 1rem;
     line-height: 28px;
     margin-bottom: 20px;
-
-
 }
+
+/* third-section */
+
+
+/* fourth-section */
 
 .col {
     width:calc(100% / 3 - 40px);
     margin-right: 40px;
 }
 
+
 .img-box {
     width: 100%;
 
 }
+
 
 .border-col {
 margin-top: 20px;
@@ -433,11 +475,11 @@ margin-top: 20px;
     font-size: 0.9rem;
 }
 
+
 .second-boxes {
 padding-top: 100px;
 
 }
-
 
 
 .clients a {
@@ -448,11 +490,14 @@ padding-top: 100px;
 
 }
 
+/* fifth-section */
+
 #fifth {
     background-color: rgb(245, 245, 245);
     height: 460px;
     position: relative;
 }
+
 
 .logo-left {
 width: 460px;
@@ -466,11 +511,13 @@ width: 460px;
     height: 230px;
 }
 
+
 .small-box:hover {
     border: 10px solid rgba(255,255,255,0.5);
     width: 225px;
     height: 225px;
 }
+
 
 .small-box.lightgreen {
     background-color: rgb(162, 211, 155);
@@ -497,6 +544,7 @@ width: 460px;
     left: 230px;
 }
 
+
 .small-box.lightblue {
     background-color: rgb(0, 147, 206);
     position: absolute;
@@ -513,9 +561,6 @@ width: 460px;
 }
 
 
-
-
-
 .design-box {
     width: 520px;
     background-color:  rgb(245, 245, 245);
@@ -530,6 +575,7 @@ width: 460px;
     width: 100px;
 }
 
+
 .designit-text {
     margin: 50px 50px;
 }
@@ -539,6 +585,7 @@ width: 460px;
     width: 460px;
 
 }
+
 
 .small-line {
     width: 40px;
@@ -553,6 +600,7 @@ width: 460px;
     top: 0;
     right: 0;
 }
+
 
 .small-box.red{
     background-color:rgb(213, 0, 31);
@@ -570,7 +618,6 @@ width: 460px;
 }
 
 
-
 .small-box.yellow {
     background-color:rgb(255, 215, 47);
     position: absolute;
@@ -586,12 +633,17 @@ width: 460px;
 }
 
 
+/* fifth-section */
+
+
+/* sixth-section */
 
 .sixth {
     height: 350px;
     background-color: rgb(179, 208, 231);
     position: relative;
 }
+
 
 .content-sect {
     margin: 0 auto;
@@ -602,6 +654,11 @@ width: 460px;
     color: rgb(97, 9, 43);
 }
 
+
+/* sixth-section */
+
+
+/* seventh-section */
 
 .seventh {
     height: 700px;
@@ -622,9 +679,6 @@ width: 460px;
     list-style-type: none;
     line-height: 100px;
     margin-top: 50px;
-
-   
-
 }
 
 .faq-list li {
@@ -633,8 +687,6 @@ width: 460px;
     font-size: 1rem;
     display: inline-block;   
     padding-right: 40px;
-
-
 }
 
 
@@ -643,11 +695,12 @@ span i {
 }
 
 
-
 #last-li {
     border-bottom: 1px solid lightgray;
 }
 
+
+/* seventh-section */
 
 
 /* main */
@@ -691,9 +744,35 @@ footer {
     text-decoration: underline;
 }
 
+
  .footer-list li {
      line-height: 25px;
  }
+
+.container-lang {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+
+ #border-line {
+    width: 120px;
+    border-top: 1px solid gray;
+
+}
+
+.lang {
+    padding-top:40px ;
+    color: gray;
+    font-size: 0.7rem;
+}
+
+ .lang-link {
+    text-decoration: none;
+    color: gray;
+}
+
+
 /* footer */
 
 
