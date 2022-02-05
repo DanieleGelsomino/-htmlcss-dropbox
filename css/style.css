@@ -602,6 +602,54 @@ width: 460px;
     color: rgb(97, 9, 43);
 }
 
+
+.seventh {
+    height: 700px;
+}
+
+
+.size-list {
+    margin-left: 260px;
+}
+
+
+.faq {
+    font-size: 2rem;
+}
+
+
+.faq-list {
+    list-style-type: none;
+    line-height: 100px;
+    margin-top: 50px;
+
+   
+
+}
+
+.faq-list li {
+    border-top: 1px solid lightgray;
+    font-weight: 700;
+    font-size: 1rem;
+    display: inline-block;   
+    padding-right: 40px;
+
+
+}
+
+
+span i {
+ margin-left: 300px;
+}
+
+
+
+#last-li {
+    border-bottom: 1px solid lightgray;
+}
+
+
+
 /* main */
 
 
