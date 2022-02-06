@@ -729,16 +729,19 @@ span i {
     width: 90%;
 }
 
-
-.arrow-up {
+.answer {
+    font-size: 0.9rem;
+    padding-top: 20px;
     display: none;
 }
 
 
+.show:hover .answer {
+    display: block;
+}
 
-/* #last-li {
-    border-bottom: 1px solid lightgray;
-} */
+
+
 
 
 
