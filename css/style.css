@@ -706,13 +706,40 @@ width: 460px;
 
 
 span i {
- margin-left: 300px;
+ margin-left: 350px;
 }
 
 
-#last-li {
+.request {
+    display: inline-block;
+    margin-top: 30px;
+
+}
+
+.big-borderline {
+    border-top: 1px solid lightgray;
+    margin-top: 100px;
+    width: 90%;
+}
+
+
+.bottom {
+    border-top: 1px solid lightgray;
+    margin-top: 30px;
+    width: 90%;
+}
+
+
+.arrow-up {
+    display: none;
+}
+
+
+
+/* #last-li {
     border-bottom: 1px solid lightgray;
-}
+} */
+
 
 
 /* seventh-section */
