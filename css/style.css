@@ -820,7 +820,7 @@ footer {
 .lang {
     padding-top:40px ;
     color: gray;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
  .lang-link {
@@ -828,6 +828,10 @@ footer {
     color: gray;
 }
 
+
+.world-icon {
+    font-size: 1rem;
+}
 
 /* footer */
 
