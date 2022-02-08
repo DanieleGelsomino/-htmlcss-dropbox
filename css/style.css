@@ -96,7 +96,7 @@ z-index: 20;
 
 
 .logo {
-margin-top: 20px 20px;
+margin-top: 20px;
 line-height: 80px;
 height: 25px;
 vertical-align: middle;
@@ -646,7 +646,6 @@ width: 460px;
 .small-text {
     font-size: 0.8rem;
     margin-top: 50px;
-    font-weight: 250px;
 }
 
 
